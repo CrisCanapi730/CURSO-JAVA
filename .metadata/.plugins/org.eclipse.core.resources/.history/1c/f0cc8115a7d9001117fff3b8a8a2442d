@@ -1,0 +1,13 @@
+package defaultPackage;
+
+public class Cadenas {
+
+	public static void main(String[] args) {
+		
+		String nombre = "Cristian";
+		System.out.println("Mi nombre es: " + nombre);
+		
+		System.out.println("Mi nombre tiene: " + nombre.length()+ " letras" );
+	}
+
+}

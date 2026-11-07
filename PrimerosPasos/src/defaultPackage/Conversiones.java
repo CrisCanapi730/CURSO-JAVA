@@ -1,0 +1,26 @@
+package defaultPackage;
+
+public class Conversiones {
+
+	public static void main(String[] args) {
+		
+		// TO CONVERT AN STRING TO INTEGER
+		
+		String num1 = "4";
+		int numConverted = Integer.parseInt(num1);
+		numConverted++;
+		System.out.println(numConverted);
+		
+		// TO CONVER AN STRING TO FLOAT
+		String num2 = "3.14";
+		float num2Converted = Float.parseFloat(num2);
+		System.out.println(num2Converted);
+		
+		// TO CONVER AN STRING TO DOUBLE
+		String num3 = "3.141534";
+		double num3Converted = Double.parseDouble(num3);
+		System.out.print(num3Converted);
+
+	}
+
+}

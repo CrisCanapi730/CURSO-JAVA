@@ -1,0 +1,31 @@
+package defaultPackage;
+
+import java.util.Scanner;
+
+public class EntradaDatos {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		// string
+		System.out.println("Introduce tu nombre porfavor");
+		String nombre = entrada.nextLine();
+		System.out.println("Tu nombre es: " + nombre);
+		
+		// float
+		System.out.println("Introduce un float");
+		float pi = entrada.nextFloat();
+		System.out.println("El numero ingresado es: " + pi);
+		
+		// double
+		System.out.println("Introduce un double");
+		double pi2 = entrada.nextDouble();
+		System.out.println("El numero es: " + pi2);
+		
+		// boolean
+		System.out.println("Introduce un booleano");
+		boolean esMayor = entrada.nextBoolean(); // true or false
+		System.out.println("Introduciste: " + esMayor);
+	}
+
+}
