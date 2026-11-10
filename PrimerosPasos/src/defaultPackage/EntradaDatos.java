@@ -5,27 +5,28 @@ import java.util.Scanner;
 public class EntradaDatos {
 
 	public static void main(String[] args) {
-		Scanner entrada = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		
 		// string
 		System.out.println("Introduce tu nombre porfavor");
-		String nombre = entrada.nextLine();
+		String nombre = scanner.nextLine();
 		System.out.println("Tu nombre es: " + nombre);
 		
 		// float
 		System.out.println("Introduce un float");
-		float pi = entrada.nextFloat();
+		float pi = scanner.nextFloat();
 		System.out.println("El numero ingresado es: " + pi);
 		
 		// double
 		System.out.println("Introduce un double");
-		double pi2 = entrada.nextDouble();
+		double pi2 = scanner.nextDouble();
 		System.out.println("El numero es: " + pi2);
 		
 		// boolean
 		System.out.println("Introduce un booleano");
-		boolean esMayor = entrada.nextBoolean(); // true or false
+		boolean esMayor = scanner.nextBoolean(); // true or false
 		System.out.println("Introduciste: " + esMayor);
-	}
+		
+		scanner.close();	}
 
 }

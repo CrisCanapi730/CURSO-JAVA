@@ -18,6 +18,10 @@ public class Variables {
 		
 		int n1, n2, n3; // we can define many variables in one line
 		
+		n1 = n2 = n3 = 9;
+		
+		System.out.println(n1 + n2 + n3);
+		
 		System.out.println(c);
 		System.out.println("Primera letra: " + letra);
 	}
