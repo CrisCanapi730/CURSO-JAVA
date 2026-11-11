@@ -13,7 +13,7 @@ public class randonConWhile {
 		int numero = 0, veces = 0;
 		
 		while(numero != aleatorio) {
-			System.out.print("Adivina el numero: ");
+			System.out.println("Adivina el numero: ");
 			numero = scanner.nextInt();
 			veces++;
 			if(aleatorio < numero) {
