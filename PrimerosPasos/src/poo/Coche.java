@@ -56,9 +56,11 @@ public class Coche {
 	public void arreglar(String peticion) {
 		if(peticion.equalsIgnoreCase("si")) {
 			descompuesto = false;
+			System.out.println("Auto arreglado");
 		}
 		else {
 			descompuesto = true;
+			System.out.println("Auto continua descompuesto");
 		}
 	}
 
