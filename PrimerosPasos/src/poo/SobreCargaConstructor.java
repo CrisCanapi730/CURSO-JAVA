@@ -37,9 +37,4 @@ class Persona{
 		System.out.println("Tiene una edad de: " + edad);
 		System.out.println("Tiene una altura de: " + altura);
 	}
-	
-	
-	
-	
-	
 }
